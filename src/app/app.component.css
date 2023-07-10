@@ -1,0 +1,56 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-width-1 {
+  flex-grow: 1;
+
+}
+
+.flex-width-3{
+  flex-grow: 3;
+}
+
+.defaultBorder{
+  border: 1px solid black;
+}
+
+.defaultMargin{
+  margin: 5px;
+}
+
+.centerAlign{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header{
+  background-color: blue;
+  color: white;
+  height: 200px;
+}
+
+.aside{
+  background-color: black;
+  float: left;
+  width: 20%;
+  color: white;
+  height: 400px;
+}
+
+.article{
+  background-color: white;
+  height: 400px;
+}
+
+.page1{
+  background-color: white;
+  height: 400px;
+}
+
+.page2{
+  background-color: green;
+  height: 400px;
+}

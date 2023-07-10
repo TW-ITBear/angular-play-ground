@@ -1,0 +1,21 @@
+.greenBackground{
+  background: green;
+}
+
+.whiteBackground{
+  background: white;
+}
+
+.article{
+  height: 400px;
+  float: right;
+  width: 77%;
+  margin: 5px;
+}
+
+.centerAlign{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
